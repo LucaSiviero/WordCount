@@ -8,3 +8,5 @@ The OpenMPI library is available for C language and many others, but in this cas
 The approach for the final solution is not a sequential approach, but, indeed, a concurrent, distributed, approach. 
 Speedup, strong and weak scalability are the main aspects to optimize during the testing and implementation of the solution.
 Test test files are not included, and the solution is not fully optimal due to a problem in the preprocessing of the files.
+In this implementation, the final step is to produce a .csv file that contains rows with string and integers, where the string is the actual word found in the files, and the integer is the number of occurences of that exact word in the entire directory of text files.
+The solution works on every cluster (but also on desktop) that has an openMPI installation for the C language.
